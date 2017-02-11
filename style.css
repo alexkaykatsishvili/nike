@@ -1,0 +1,115 @@
+body {
+	width: 800px;
+	height: 600px;
+	background: url(images/background.png) no-repeat;
+}
+.product {
+	width: 686px;
+	height: 391px;
+	margin: 109px auto;
+	background-color: #111a28;
+}
+.product__logo__img {
+	margin: 25px 0 0 20px;
+}
+.product__view {
+	float: left;
+}
+.product__view__img {
+	margin: 65px 0 0 35px;
+}
+.product__info {
+	float: right;
+	margin-right: 57px;
+	margin-top: 15px;
+}
+.product__info__title {
+	font-weight: 100;
+	color:  #d4d5d5;
+	font-size: 24px;/* Приближение из-за подстановки шрифтов */
+	line-height: 26px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+	margin: 0 0 0 0;
+}
+.product__info__title__p {
+	margin: 0 0 0 0;
+	padding: 0;
+}
+.product__info__subtitle__p {
+	margin: 15px 0 0 0;
+}
+.product__info__subtitle {
+	font-family: MuseoSansRounded;
+	color:  #49505a;
+	font-size: 14px;/* Приближение из-за подстановки шрифтов */
+	line-height: 26px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+}
+.product__info__stars {
+	margin: 25px 0 0 0px;
+}
+i {
+	color: #f7bf16;
+}
+.em {
+	color: #9da1a6;
+}
+select {
+	border-width: 1px;
+	border-color:  #ffffff;
+	border-style: solid;
+	background-color:  #111a28;
+	opacity: 0.26;
+	width: 67px;
+	height: 30px;
+	font-family: MuseoSansRounded;
+	color:  #adafb3;
+	font-size: 14px;/* Приближение из-за подстановки шрифтов */
+	line-height: 18px;/* Приближение из-за подстановки шрифтов */
+	text-align: center;
+}
+.product__info__select__size {
+	margin-top: 25px;
+}
+.product__info_submit__btn {
+	border-width: 1px;
+	border-color:  #ffffff;
+	border-style: solid;
+	background-color:  #4c525a;
+	opacity: 0.26;
+	width: 182px;
+	height: 38px;
+	font-family: MuseoSansRounded;
+	color:  #e1e1e1;
+	font-size: 14px;/* Приближение из-за подстановки шрифтов */
+	line-height: 18px;/* Приближение из-за подстановки шрифтов */
+	text-align: center;
+	margin-top: 30px;
+	cursor: pointer;
+}
+.cleaner {
+	clear: both;
+}
+.product__sidebar {
+	margin: 0 0 20px 177px;
+}
+[class ^= "product__sidebar__color"] {
+	width: 12px;
+	height: 12px;	
+	border-radius: 50%;
+	display: inline-block;
+	cursor: pointer;
+	margin-right: 6px;
+}
+.product__sidebar__color_d {
+	background-color: #1f273f;
+}
+.product__sidebar__color_w {
+	background-color: #fff;
+}
+.product__sidebar__color_r {
+	background-color: #ed3333;
+}
+.product__sidebar__color_b {
+	background-color: #29e3ea;
+}
